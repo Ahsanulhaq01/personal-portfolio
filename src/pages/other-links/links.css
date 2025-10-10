@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.2rem;
+  gap: 1rem;
   padding: 0.3rem 1rem;
   margin-top: 0.4rem;
   margin-right: 1.4rem;
@@ -15,15 +15,22 @@
 
 }
 .link{
-   background-color: rgba(38, 38, 95, 0.445);
-   height: 60%;
+   background-color: rgba(38, 38, 95, 0.918);
+   height: 55%;
    width: 100%;
-   max-width: 25%;
+   max-width: 22%;
    display: flex;
    flex-direction: column;
    padding: 1rem;
    gap: 0.8rem;
    border-radius: 10px;
+   opacity: 0.8;
+   transition: all 0.2s ease-in;
+}
+.link:hover{
+    opacity: 1;
+   /* min-width: 23%; */
+   height: 56%;
 }
 .link a{
     text-decoration: none;

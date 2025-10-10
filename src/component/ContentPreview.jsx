@@ -11,7 +11,7 @@ function ContentPreview() {
             </div>
         </div>
         <div className="preview-container">
-            <div className="graphic-container">profile-picture
+            <div className="graphic-container">
                 <img src="/images/imrankhan.jpg" alt="" />
                 <p className="graphic-container-text">
                   👋 Hi, I'm Ahsan Ul Haq, a Software Engineering student currently learning web development.
