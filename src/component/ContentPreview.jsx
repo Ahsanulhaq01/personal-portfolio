@@ -11,8 +11,8 @@ function ContentPreview() {
             </div>
         </div>
         <div className="preview-container">
-            <div className="graphic-container">
-                <img src="../../public/images/imrankhan.jpg" alt="" />
+            <div className="graphic-container">profile-picture
+                <img src="/images/imrankhan.jpg" alt="" />
                 <p className="graphic-container-text">
                   👋 Hi, I'm Ahsan Ul Haq, a Software Engineering student currently learning web development.
 I’ve completed the frontend part and am now exploring backend development to understand how everything works together.

@@ -6,7 +6,7 @@ function Sidebar() {
     <>
      <div className="sidebar-container">
         <div className="profile-image">
-            <img src="../../public/images/imrankhan.jpg" alt="profile-picture" />
+            <img src="/images/imrankhan.jpg" alt="profile-picture" />
             <Link to={'/'} className="name-container">
                 Ahsanulhaq
             </Link>
