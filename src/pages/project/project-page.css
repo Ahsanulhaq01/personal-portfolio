@@ -1,0 +1,75 @@
+.projects-container{
+  flex: 1;
+  /* border: 0.1px solid wheat; */
+  border-radius: 10px;
+  height: 80%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.4rem;
+  margin-right: 1.4rem;
+  background-color: rgba(38, 38, 95, 0.445);
+    border-radius: 10px;
+}
+.project-box{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 98%;
+    padding: 0.4rem 0.4rem;
+}
+.project-name{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 95, 0.445);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem 0.4rem;
+}
+.project-name a{
+    /* border: 2px solid red; */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 0.4rem;
+    text-wrap: wrap;
+
+}
+.projects-videos{
+    background-color: rgba(38, 38, 95, 0.445);
+    border-radius: 10px;
+    height: 78%;
+    width: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.4rem 0.8rem;
+
+    
+}
+.projects-videos video{
+    width: 90%;
+    height:80%;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: rgba(38, 38, 95, 0.445);
+    padding: 0.8rem 0.8rem;
+}
+.projects-videos .link-of-source-code {
+    
+    height: 10%;
+    background-color: rgba(38, 38, 95, 0.445);
+    padding: 0.8rem 0.8rem;
+    border-radius: 10px;
+    /* border: 2px solid red;     */
+}
+.projects-videos .link-of-source-code a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
