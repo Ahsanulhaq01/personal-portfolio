@@ -1,0 +1,37 @@
+.about-me-container {
+  flex: 1;
+  background-color: rgba(38, 38, 95, 0.445);
+  border-radius: 10px;
+  border-radius: 10px;
+  height: 80%;
+  width: 70%;
+  display: flex;
+  gap: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.4rem;
+  margin-right: 1.4rem;
+  align-items: center;
+  justify-content: center;
+}
+.about-me-container .text-about-me {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26265f71;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+}
+.about-me-container .text-about-me p {
+  width: 80%;
+  height: 80%;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  -webkit-text-stroke: 0.08cqh;
+  text-overflow: none;
+  padding: 0.4rem 0.8rem;
+  text-wrap: wrap;
+}
