@@ -16,7 +16,7 @@ function Sidebar() {
             <Link to="/other-links" className="other-link-page">Other Links</Link>
             <Link to="/skills" className='skill-page'>Skills</Link>
             <Link to ="/project-page"className="project-page">Project-page</Link>
-            <Link to="/language" className="language">Languages</Link>
+            <Link to="/contact" className="contact">Contact</Link>
             <Link to="/about" className="about">About</Link>
 
         </div>

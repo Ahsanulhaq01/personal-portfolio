@@ -1,0 +1,125 @@
+.contact-container{
+  flex: 1;
+  background-color: rgba(38, 38, 95, 0.445);
+  border-radius: 10px;
+  height: 92%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.4rem;
+  margin-right: 1.4rem;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+}
+.contact-container .contact-me-para{
+    /* border: 2px solid red; */
+    max-height: 5%;
+    /* width: 10%; */
+    font-weight: bold;
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+    margin-top:0.4rem;
+     color: rgba(255, 255, 255, 0.788);
+}
+.contact-container .contact-me-para:hover{
+    color: white;
+    cursor: pointer;
+}
+.contact-container .short-intro{
+    /* border: 2px solid red; */
+    height: 10%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.788);
+}
+.form-container{
+    /* border: 2px solid red; */
+    
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 01rem0 01rem;
+    background-color: rgba(38, 38, 95, 0.445);
+  border-radius: 10px;
+
+}
+.form-container .name-box{
+   display: flex;
+   height: 20%;
+   gap: 0.8rem;
+   /* border :2px solid red; */
+   align-items: center;
+   padding: 0rem 0.8rem;
+}
+label{
+    height: 40%;
+}
+.form-container .email-box{
+display: flex;
+   height: 20%;
+gap: 0.8rem;
+   /* border :2px solid red; */
+   align-items: center;
+   padding: 0rem 0.8rem;
+}
+.message-box{
+    display: flex;
+   flex-direction: column;
+   height: 35%;
+   width: 100%;
+   gap: 0.6rem;
+   /* border :2px solid red; */
+   padding: 0rem 0.8rem;
+}
+.message-box textarea {
+    width: 100%;
+    padding: 0.4rem 0.8rem;
+    background-color: rgba(255, 255, 255, 0.74);
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.form-container input {
+    height: 60%;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding: 0.3rem 0.8rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.form-container .send-msg{
+    align-self: center;
+    height: 12%;
+    margin-top: 0.4rem;
+    /* border: 2px solid red; */
+    padding: 0.3rem 0.8rem;
+    border-radius: 10px;
+    background-color: rgba(38, 38, 95, 0.445);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.274);
+}
+
+.social-link{
+    height: 10%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(38, 38, 95, 0.445);
+}
+.social-link a{
+    color : white;
+    height: 60%;
+}
