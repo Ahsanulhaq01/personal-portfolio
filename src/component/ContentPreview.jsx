@@ -7,7 +7,7 @@ function ContentPreview() {
         <div className="text-container">
             <div className="name-container">
                 <p className="pronoun">I am </p>
-                <p className="intro">Ahsanulhaq</p>
+                <p className="intro">Fronted Engineer</p>
             </div>
         </div>
         <div className="preview-container">
