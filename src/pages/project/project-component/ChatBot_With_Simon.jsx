@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import Sidebar from '../../../component/sidebar/Sidebar'
+import Project_SideBar from '../../../component/Project_SideBar'
 import '../project-page.css'
 
 function ChatBot_With_Simon() {
@@ -9,14 +10,7 @@ function ChatBot_With_Simon() {
      <div className="app-container">
     <Sidebar/>
     <div className="projects-container">
-      <div className="project-box">
-        <div className="project-name">
-         <Link to ="/Ecommerce-With-SuperSimpleDev" className="college-name-page">Ecommerce With Simon Bao</Link>
-         <Link to ="/chatbot-with-simon" className="college-name-page">ChatBot With Simon Bao</Link>
-         <Link to ="/blog" className="college-name-page">Blog</Link>
-         <Link to ="/Ecommerce" className="college-name-page">Ecommerce</Link>
-        </div>
-      </div>
+      <Project_SideBar/>
         <div className="projects-videos">
           <video src="/Projects-videos/Chatbot_with_superSimpleDev.mp4" controls></video>
           <div className="link-of-source-code">
