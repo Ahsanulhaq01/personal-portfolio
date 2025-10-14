@@ -14,7 +14,7 @@ function ProjectPage() {
           <video src="/Projects-videos/ecommerce_with_superSimpleDev.mp4" controls></video>
           <div className="link-of-source-code">
 
-          <Link to={'/'}>Source Code</Link>
+          <Link to={'https://github.com/Ahsanulhaq01'}>GitHub</Link>
           </div>
         </div>
 
