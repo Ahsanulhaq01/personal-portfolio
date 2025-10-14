@@ -36,9 +36,9 @@ creative ideas, or opportunities to collaborate.</p>
         <button className='send-msg'>Send Message</button>
       </div>
       <div className="social-link">
-        <Link to={'https://x.com/ulhaqcdr'} target='_blank'>X or Twitter</Link>
-        <Link to={'https://www.linkedin.com/in/ahsan-ulhaq-8581a82ba/'} target='_blank'>LinkedIn</Link>
-        
+        <Link to={'https://www.linkedin.com/in/ahsan-ulhaq-8581a82ba/'} target='blank'><i className="fa-brands fa-linkedin"></i></Link>
+        <Link to={'https://github.com/Ahsanulhaq01'} target='blank'><i className="fa-brands fa-github"></i></Link>
+        <Link to={'https://x.com/ulhaqcdr'}target='blank'><i className="fa-brands fa-x-twitter"></i></Link>
       </div>
    </div>
    </div>
