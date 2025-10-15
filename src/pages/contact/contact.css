@@ -24,6 +24,9 @@
     margin-top:0.4rem;
      color: rgba(255, 255, 255, 0.788);
 }
+.contact-me-para p{
+    height: 100%;
+}
 .contact-container .contact-me-para:hover{
     color: white;
     cursor: pointer;
@@ -34,6 +37,9 @@
     font-weight: bold;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.788);
+}
+.short-intro p{
+    height: 100%;
 }
 .form-container{
     /* border: 2px solid red; */
@@ -121,5 +127,9 @@ gap: 0.8rem;
 }
 .social-link a{
     color : white;
-    height: 60%;
+    max-height: 60%;
+    font-size: 1.8rem;
+}
+.social-link a i{
+    height: 100%;
 }
