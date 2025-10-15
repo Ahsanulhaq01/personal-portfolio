@@ -1,10 +1,23 @@
 import { Link } from 'react-router'
 import './sidebar.css'
+import { useState } from 'react'
 
 function Sidebar() {
+  const [open , isOpen] = useState(false);
+  function handleClose(){
+    isOpen(!open);
+
+  }
   return (
     <>
      <div className="sidebar-container">
+      <div className="icon-container">
+        <i 
+        onClick={handleClose}
+        className= {open ? "fa-solid fa-bars" : "fa-solid fa-xmark"}>
+        </i>
+
+      </div>
         <div className="profile-image">
             <img src="/images/imrankhan.jpg" alt="profile-picture" />
             <Link to={'/'} className="name-container">
