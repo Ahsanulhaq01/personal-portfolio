@@ -1,20 +1,29 @@
 import { Link } from 'react-router'
 import './sidebar.css'
-import { useState } from 'react'
+import {useState } from 'react'
 
 function Sidebar() {
-  const [open , isOpen] = useState(false);
+  const [isOpen , setIsOpen] = useState(true);
   function handleClose(){
-    isOpen(!open);
+    setIsOpen(!isOpen);
 
+  }
+  function handleOpen(){
+    setIsOpen(!isOpen);
   }
   return (
     <>
-     <div className="sidebar-container">
-      <div className="icon-container">
+    <div className={`humbargar ${isOpen ?'active' : ""}`}
+    onClick={handleOpen}>
+      <i
+      className= {`fa-solid fa-bars`}>
+    </i>
+    </div>
+     <div className={`sidebar-container ${isOpen ? '' :'active'}`}>
+      <div className={`icon-container  `}>
         <i 
         onClick={handleClose}
-        className= {open ? "fa-solid fa-bars" : "fa-solid fa-xmark"}>
+        className= {"fa-solid fa-xmark"}>
         </i>
 
       </div>

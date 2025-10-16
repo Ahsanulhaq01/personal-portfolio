@@ -65,3 +65,20 @@
   color: white;
   font-weight: bold;
 }
+.humbargar{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  transition: all;
+  max-height: 3%;
+  width: 5%;
+}
+.humbargar i{
+  height: 100%;
+  max-width: 100%;
+}
+
+.active {
+  display: none;
+}
