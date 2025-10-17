@@ -78,7 +78,17 @@
   height: 100%;
   max-width: 100%;
 }
+.fa-xmark{
+  max-height: 3%;
+  width: 5%;
+}
 
 .active {
   display: none;
+}
+
+@media (max-width:554px) {
+  .sidebar-container{
+    z-index: 100px;
+  }
 }
