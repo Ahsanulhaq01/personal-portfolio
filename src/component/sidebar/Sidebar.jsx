@@ -3,7 +3,7 @@ import './sidebar.css'
 import {useState } from 'react'
 
 function Sidebar() {
-  const [isOpen , setIsOpen] = useState(true);
+  const [isOpen , setIsOpen] = useState(false);
   function handleClose(){
     setIsOpen(!isOpen);
 
@@ -13,13 +13,18 @@ function Sidebar() {
   }
   return (
     <>
-    <div className={`humbargar ${isOpen ? 'active' : ""}`}
+    {/* <div className={`humbargar ${isOpen ? 'active' : ""}`}
     onClick={handleOpen}>
       <i
       className= {`fa-solid fa-bars`}>
     </i>
-    </div>
-    <div className={`sidebar-container ${isOpen ? '' :'active'}`}>
+    </div> */}
+    {isOpen ?<div className={`humbargar`}
+    onClick={handleOpen}>
+      <i
+      className= {`fa-solid fa-bars`}>
+    </i>
+    </div> : <div className={`sidebar-container ${isOpen ? '' :'active'}`}>
       <div className={`icon-container`}>
         <i 
         onClick={handleClose}
@@ -43,7 +48,7 @@ function Sidebar() {
 
         </div>
 
-    </div>
+    </div>}
     </>
   )
 }

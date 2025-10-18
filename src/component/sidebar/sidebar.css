@@ -12,6 +12,12 @@
   margin-top: 0.4rem;
   margin-left: 1.4rem;
   position: relative;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000px;
+}
+.active{
+  transform: translateX(0);
 }
 .icon-container{
   max-height: 6%;
@@ -83,9 +89,9 @@
   width: 5%;
 }
 
-.active {
+/* .active {
   display: none;
-}
+} */
 
 @media (max-width:554px) {
   .sidebar-container{
