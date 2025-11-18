@@ -12,12 +12,14 @@
   margin-top: 0.4rem;
   margin-right: 1.4rem;
   cursor: pointer;
+  flex-wrap: wrap;
 
 }
 .link{
    background-color: rgba(38, 38, 95, 0.918);
    height: 55%;
    width: 100%;
+   /* width: 300px; */
    max-width: 22%;
    display: flex;
    flex-direction: column;
@@ -31,6 +33,7 @@
     opacity: 1;
    /* min-width: 23%; */
    height: 56%;
+   /* height: 410px; */
 }
 .link a{
     text-decoration: none;
