@@ -1,58 +1,53 @@
-.links-container{
-    flex: 1;
+.links-container {
+  flex: 1;
   background-color: rgba(38, 38, 95, 0.445);
   border-radius: 10px;
   height: 80%;
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.3rem 1rem;
-  margin-top: 0.4rem;
-  margin-right: 1.4rem;
+  overflow: hidden;
+  overflow: auto;
+  padding: 0.3rem 0.4rem;
+  margin: 0rem 1.4rem;
   cursor: pointer;
-  flex-wrap: wrap;
-
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
+  gap: 0.6rem;
+  row-gap: 10px;
+  scrollbar-width: 1px;
 }
-.link{
-   background-color: rgba(38, 38, 95, 0.918);
-   height: 55%;
-   width: 100%;
-   /* width: 300px; */
-   max-width: 22%;
-   display: flex;
-   flex-direction: column;
-   padding: 1rem;
-   gap: 0.8rem;
-   border-radius: 10px;
-   opacity: 0.8;
-   transition: all 0.2s ease-in;
+.link {
+  background-color: rgba(38, 38, 95, 0.918);
+  width: 240px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.8rem;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
 }
-.link:hover{
-    opacity: 1;
-   /* min-width: 23%; */
-   height: 56%;
-   /* height: 410px; */
+.link:hover {
+  opacity: 1;
+  height: 290px;
 }
-.link a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+.link a {
+  color: white;
+  font-weight: bold;
 }
-.link img{
-    object-fit: cover;
-    border-radius: 10px;   
-    filter: brightness(60%); 
+.link img {
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(60%);
 }
-.link .link-text-container{
-    /* border: 2px solid rgb(19, 214, 214); */
-    height:40%;
-    display: flex;
-    flex-direction: column;
-    padding: 0.2rem 0.4rem;
-    justify-content: space-between;  
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 2px;
+.link .link-text-container {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 0.4rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 2px;
 }
