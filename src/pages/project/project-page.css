@@ -62,14 +62,36 @@
 }
 .projects-videos .link-of-source-code {
     
-    height: 10%;
+    height: 30px;
     background-color: rgba(38, 38, 95, 0.445);
     padding: 0.8rem 0.8rem;
     border-radius: 10px;
-    /* border: 2px solid red;     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .projects-videos .link-of-source-code a{
     color: white;
     font-weight: bold;
     text-decoration: none;
+    height: 30px;
+}
+
+@media (max-width:550px) {
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        height: auto;
+    }
+    .project-box{
+        width : 100%;
+        height: 280px;
+    }
+    .projects-videos{
+        width: 100%;
+        height: 100%;
+    }
 }

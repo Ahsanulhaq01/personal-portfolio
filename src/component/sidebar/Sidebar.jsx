@@ -1,37 +1,15 @@
 import { Link } from 'react-router'
 import './sidebar.css'
-import {useState } from 'react'
 
 function Sidebar() {
-  const [isOpen , setIsOpen] = useState(false);
-  function handleClose(){
-    setIsOpen(!isOpen);
-
-  }
-  function handleOpen(){
-    setIsOpen(!isOpen);
-  }
   return (
     <>
-    {/* <div className={`humbargar ${isOpen ? 'active' : ""}`}
-    onClick={handleOpen}>
+    <div className="active">
       <i
       className= {`fa-solid fa-bars`}>
     </i>
-    </div> */}
-    {isOpen ?<div className={`humbargar`}
-    onClick={handleOpen}>
-      <i
-      className= {`fa-solid fa-bars`}>
-    </i>
-    </div> : <div className={`sidebar-container ${isOpen ? '' :'active'}`}>
-      <div className={`icon-container`}>
-        <i 
-        onClick={handleClose}
-        className= {"fa-solid fa-xmark"}>
-        </i>
-
-      </div>
+    </div>
+     <div className="sidebar-container">
         <div className="profile-image">
             <img src="/images/imrankhan.jpg" alt="profile-picture" />
             <Link to={'/'} className="name-container">
@@ -48,7 +26,7 @@ function Sidebar() {
 
         </div>
 
-    </div>}
+    </div>
     </>
   )
 }

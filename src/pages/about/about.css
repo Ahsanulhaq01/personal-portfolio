@@ -22,6 +22,8 @@
   background-color: #26265f71;
   border-radius: 10px;
   padding: 0.4rem 0.8rem;
+  overflow: scroll;
+  overflow-x: none;
 }
 .about-me-container .text-about-me p {
   width: 80%;
@@ -31,7 +33,5 @@
   font-size: 14px;
   text-align: center;
   -webkit-text-stroke: 0.08cqh;
-  text-overflow: none;
   padding: 0.4rem 0.8rem;
-  text-wrap: wrap;
 }
