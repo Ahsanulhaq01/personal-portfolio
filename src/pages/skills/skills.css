@@ -53,3 +53,12 @@
     line-height: 30px;
     width: 80%;
 }
+
+@media (max-width : 550px) {
+    .skill-container{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+}
