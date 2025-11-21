@@ -8,12 +8,12 @@
   padding: 0.3rem 0.4rem;
   margin: 0rem 1.4rem;
   cursor: pointer;
-  /* border: 2px solid red; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-items: center;
   gap: 0.6rem;
-  row-gap: 10px;
+  /* row-gap: 10px; */
 }
 .link {
   background-color: rgba(38, 38, 95, 0.918);
