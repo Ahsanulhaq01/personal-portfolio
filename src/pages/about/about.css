@@ -22,12 +22,10 @@
   background-color: #26265f71;
   border-radius: 10px;
   overflow: scroll;
-  border: 2px solid red;
 }
 .about-me-container .text-about-me p {
   width: 80%;
   height: 80%;
-  border : 2px solid red;
   overflow: scroll;
   line-height: 24px;
   letter-spacing: 1px;
