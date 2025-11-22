@@ -20,7 +20,7 @@ function Sidebar() {
      <div className="sidebar-container">
        <i className="fa-solid fa-xmark close-icon" onClick={handleIsOpenButton}></i>
         <div className="profile-image">
-            <img src="/images/imrankhan.jpg" alt="profile-picture" />
+            <img src="/personal-portfolio/public/images/imrankhan.jpg" alt="profile-picture" />
             <Link to={'/'} className="name-container">
                 Ahsanulhaq
             </Link>

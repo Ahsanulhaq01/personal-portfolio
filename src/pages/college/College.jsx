@@ -15,7 +15,7 @@ function College() {
         </div>
         <div className="preview-container">
             <div className="graphic-container">
-                <img src="/images/islamia-college-peshawar.jpg" alt="" />
+                <img src="/personal-portfolio/public/images/islamia-college-peshawar.jpg" alt="" />
                 <p className="graphic-container-text">                  
 Islamia College Peshawar, founded in 1913, is one of the most respected and historic educational institutions in Pakistan. It provides a strong academic environment that helps students grow in knowledge, discipline, and character. I’m proud to be part of this institution and its rich legacy.
                 </p>

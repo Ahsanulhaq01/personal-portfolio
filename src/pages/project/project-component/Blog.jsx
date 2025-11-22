@@ -12,7 +12,7 @@ function Blog() {
     <div className="projects-container">
             <Project_SideBar/>
         <div className="projects-videos">
-          <video src="/Projects-videos/blog_app.mp4" controls></video>
+          <video src="/personal-portfolio/public/Projects-videos/blog_app.mp4" controls></video>
           <div className="link-of-source-code">
 
           <Link to={'https://github.com/Ahsanulhaq01/Intermediate-React-Project/tree/main/blog'}>Source Code</Link>

@@ -11,7 +11,7 @@ function EcommerceWithSimon() {
     <div className="projects-container">
       <Project_SideBar/>
         <div className="projects-videos">
-          <video src="/Projects-videos/ecommerce_with_superSimpleDev.mp4" controls></video>
+          <video src="/personal-portfolio/public/Projects-videos/ecommerce_with_superSimpleDev.mp4" controls></video>
           <div className="link-of-source-code">
 
           <Link to={'https://github.com/Ahsanulhaq01/Ecommerce-project'}>Source Code</Link>
