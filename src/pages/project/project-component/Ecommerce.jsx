@@ -11,7 +11,7 @@ function Ecommerce() {
     <div className="projects-container">
       <Project_SideBar/>
         <div className="projects-videos">
-          <video src="/personal-portfolio/public/Projects-videos/ecommerce_fronted.mp4" controls></video>
+          <video src="/personal-portfolio/Projects-videos/ecommerce_fronted.mp4" controls></video>
           <div className="link-of-source-code">
 
           <Link to={'https://github.com/Ahsanulhaq01/Intermediate-React-Project/tree/main/ecommerce-fronted'}>Source Code</Link>

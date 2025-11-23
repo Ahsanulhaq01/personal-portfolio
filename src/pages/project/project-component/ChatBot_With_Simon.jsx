@@ -12,7 +12,7 @@ function ChatBot_With_Simon() {
     <div className="projects-container">
       <Project_SideBar/>
         <div className="projects-videos">
-          <video src="/personal-portfolio/public/Projects-videos/Chatbot_with_superSimpleDev.mp4" controls></video>
+          <video src="/personal-portfolio/Projects-videos/Chatbot_with_superSimpleDev.mp4" controls></video>
           <div className="link-of-source-code">
 
           <Link to={'https://github.com/Ahsanulhaq01/Intermediate-React-Project/tree/main/Chatbot_in_react/'}>Source Code</Link>
