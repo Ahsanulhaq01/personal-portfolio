@@ -65,7 +65,7 @@
 }
 
 .active{
-  border: 2px solid rgb(18, 219, 95);
+  /* border: 2px solid rgb(18, 219, 95); */
   height: 30px;
   margin-top: 1rem;
   margin-left: 0.5rem;
