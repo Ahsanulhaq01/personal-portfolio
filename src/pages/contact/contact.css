@@ -8,13 +8,22 @@
   flex-direction: column;
   gap: 1rem;
   padding: 0.4rem 0.8rem;
+<<<<<<< HEAD
   margin-top: 3rem;
   align-items: center;
   justify-content: space-evenly;
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6ffa8cd9bf392b4a4f717e014ba759914f7d7ac0
   /* margin-top: 3rem; */
   align-items: center;
   justify-content: space-evenly;
   border: 2px solid red;
+<<<<<<< HEAD
+=======
+>>>>>>> b0e947f924e16ff4977ebeb77a51bf6766458553
+>>>>>>> 6ffa8cd9bf392b4a4f717e014ba759914f7d7ac0
 }
 .contact-container .contact-me-para {
   /* border: 2px solid red; */
